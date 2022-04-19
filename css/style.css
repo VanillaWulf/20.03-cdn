@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/lato-regular.woff2") format("woff2"),
+        url("../fonts/lato-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/lato-bold.woff2") format("woff2"),
+        url("../fonts/lato-bold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/lato-italic.woff2") format("woff2"),
+        url("../fonts/lato-italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-weight: 800;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: #b01cca;
+    border-color: #b01cca;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #821595;
+    border-color: #821595;
+}
+
+.btn-purple:focus+.btn-purple,
+.btn-purple:focus {
+    color: #fff;
+    background-color: #660d76;
+    border-color: #660d76;
+    box-shadow: 0 0 0 0.25rem rgba(171, 83, 225, 0.5);
+}
+
+.btn-check:checked+.btn-purple,
+.btn-check:active+.btn-purpler,
+.btn-purple:active,
+.btn-purple.active,
+.show>.btn-purple.dropdown-toggle {
+    color: #fff;
+    background-color: #821595;
+    border-color: #821595;
+}
+
+.btn-check:checked+.btn-purple:focus,
+.btn-check:active+.btn-purple:focus,
+.btn-purple:active:focus,
+.btn-purple.active:focus,
+.show>.btn-purple.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(171, 83, 225, 0.5);
+}
+
+.btn-purple:disabled,
+.btn-purple.disabled {
+    color: #fff;
+    background-color: #704977;
+    border-color: #704977;
+}
+
+img {
+    width: 100%;
+    height: 700px;
+}
+
+.box {
+    border: 3px solid;
+    box-sizing: border-box;
+}
+
+.icon {
+    font-size: 40px;
+}
